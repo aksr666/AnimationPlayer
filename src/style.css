@@ -73,7 +73,9 @@ body {
   bottom: 0%;
   right: 0%;
   background-image: url("../img/copy.png");
-  background-size: cover;
+  background-size: 25px;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 30px;
   height: 30px;
 }
@@ -82,7 +84,9 @@ body {
   bottom: 0%;
   left: 0%;
   background-image: url("../img/delete.png");
-  background-size: cover;
+  background-size: 25px;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 30px;
   height: 30px;
 }
@@ -100,12 +104,19 @@ body {
   left: 0%;
   bottom: 0%;
 }
+.fps-rate-label {
+  position: absolute;
+  left: 3%;
+  bottom: 140%;
+}
 .fullscreen-button {
   position: absolute;
   right: 0%;
   bottom: 0%;
   background-image: url("../img/fs.png");
-  background-size: cover;
+  background-size: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 35px;
   height: 35px;
 }
@@ -131,7 +142,6 @@ button {
   align-items: center;
 }
 .btn-menu {
-  padding: 0;
   margin-right: 30px;
 }
 .btn {
@@ -144,14 +154,13 @@ button {
 .menu-icon {
   width: 18px;
   height: 12px;
-  margin-right: 0;
 }
 .menu h1 {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;
-  color: rgba(0, 0, 0, 0.87);
+  color: #000000de;
 }
 .points-icon {
   width: 4px;

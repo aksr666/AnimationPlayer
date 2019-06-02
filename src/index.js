@@ -1,3 +1,4 @@
+/* eslint-disable class-methods-use-this */
 const state = {
   color: false,
   isMouseDown: false,
