@@ -66,6 +66,7 @@ class CanvasMain extends Canvas {
     this.canvas.addEventListener('mousemove', e => this.draw(e));
     this.canvas.addEventListener('mouseleave', () => {
       this.isMouseDown = false;
+      this.context.beginPath();
     });
   }
 
