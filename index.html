@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>codejam - Animation Player</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+    <div class="main">
+        <div class="menu">
+            <div class="menu-title">
+                <button class="btn-menu btn"><img class="menu-icon" src="img/Menu.png" alt="menu"></button>
+                <h1>CodeJam - Animation Player</h1>
+            </div>
+            <img class="points-icon" src="img/shape.png" alt="points">
+        </div>
+        <div class="pallete">
+            <button class="pallete-item btn-pallete btn paint" id="paint"><img class="paint" src="img/paint.png" alt="paint"></button>
+            <button class="pallete-item btn-pallete btn draw"><img class="draw" src="img/pencil.png" alt="choose"></button>
+            <input type="color" class="current input-color">
+        </div>
+        <div class="frames"></div>
+        <div class="canvas">
+        </div>
+        <div class="preview">
+            <div class='fps'>
+                <input type="range" class="fps-rate" name="fps" min="1" max="24">
+                <label class="fps-rate-label" for="fps">FPS: 1</label>
+            </div>
+        </div>
+    </div>
+    <script src="src/index.js"></script>
+</body>
+</html>
